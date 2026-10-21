@@ -1,0 +1,265 @@
+export const portfolioData = {
+  personal: {
+    firstName: "Shabbirhushen",
+    lastName: "Tatariya",
+    fullName: "Shabbirhushen Amajid Tatariya",
+    title: "Full Stack & Mobile App Developer",
+    availabilityBadge: "Available for Remote Work",
+    headlineLine1: "Full Stack &",
+    headlineLine2: "Mobile App Developer",
+    heroDescription:
+      "I build mobile applications, web solutions and backend systems with clean architecture and modern technologies. From idea to deployment, I deliver complete, scalable solutions.",
+    stats: [
+      { value: "7+", label: "Years\nExperience" },
+      { value: "50+", label: "Projects\nCompleted" },
+      { value: "10+", label: "Published\nMobile Apps" },
+      { value: "100%", label: "Remote\nAvailability" },
+    ],
+    heroPill: "Mobile Apps • Web Apps • Backend • AI Integration",
+    aboutHeading: "About Me",
+    aboutDescription:
+      "I am Shabbirhushen Amajid Tatariya, a Full Stack & Mobile App Developer with deep expertise in Flutter, Android, Web Development, and Backend systems. I have developed and published real-world production applications across Google Play Store and Apple App Store, including ride-hailing solutions, multi-service platforms, on-demand dispatch systems, and social networking apps.",
+    profileImage: "/assets/profile/about-photo-hd.png",
+  },
+
+  contact: {
+    email: "shabbir.techmishty@gmail.com",
+    phone: "+91 98987 85276",
+    location: "Rajkot, Gujarat, India",
+    whatsappNumber: "919898785276",
+    whatsappUrl: "https://wa.me/919898785276",
+    githubUrl: "https://github.com/fluttersappdev",
+    linkedinUrl: "https://www.linkedin.com/in/shabbirhushen-tatariya-39783a153",
+    resumeUrl: "/assets/resume/resume.pdf",
+    statusBadge: "Available for Remote Work",
+  },
+
+  services: [
+    {
+      id: "mobile-dev",
+      title: "Mobile App\nDevelopment",
+      icon: "Smartphone",
+      color: "#8b5cf6",
+    },
+    {
+      id: "web-dev",
+      title: "Web Application\nDevelopment",
+      icon: "Code2",
+      color: "#06b6d4",
+    },
+    {
+      id: "backend-dev",
+      title: "Backend & APIs\nDevelopment",
+      icon: "Server",
+      color: "#10b981",
+    },
+    {
+      id: "uiux-impl",
+      title: "UI/UX\nImplementation",
+      icon: "PenTool",
+      color: "#ec4899",
+    },
+    {
+      id: "ai-auto",
+      title: "AI Integration\n& Automation",
+      icon: "Sparkles",
+      color: "#6366f1",
+    },
+    {
+      id: "deploy-support",
+      title: "Deployment\n& Support",
+      icon: "Cloud",
+      color: "#38bdf8",
+    },
+  ],
+
+  techStack: [
+    {
+      name: "Flutter",
+      category: "mobile",
+      icon: "flutter",
+      color: "#02569B",
+    },
+    {
+      name: "Dart",
+      category: "mobile",
+      icon: "dart",
+      color: "#0175C2",
+    },
+    {
+      name: "Android",
+      subtitle: "(Kotlin/Java)",
+      category: "mobile",
+      icon: "android",
+      color: "#3DDC84",
+    },
+    {
+      name: "iOS",
+      subtitle: "(Swift)",
+      category: "mobile",
+      icon: "apple",
+      color: "#FA7343",
+    },
+    {
+      name: "Node.js",
+      category: "backend",
+      icon: "nodejs",
+      color: "#339933",
+    },
+    {
+      name: "Express.js",
+      category: "backend",
+      icon: "express",
+      color: "#ffffff",
+    },
+    {
+      name: "MongoDB",
+      category: "database",
+      icon: "mongodb",
+      color: "#47A248",
+    },
+    {
+      name: "Firebase",
+      category: "cloud",
+      icon: "firebase",
+      color: "#FFCA28",
+    },
+    {
+      name: "REST APIs",
+      category: "backend",
+      icon: "api",
+      color: "#00b4d8",
+    },
+    {
+      name: "WebSockets",
+      category: "backend",
+      icon: "websockets",
+      color: "#ea580c",
+    },
+    {
+      name: "AI Tools",
+      subtitle: "(Gemini, OpenAI)",
+      category: "ai",
+      icon: "ai",
+      color: "#a855f7",
+    },
+    {
+      name: "Figma",
+      category: "design",
+      icon: "figma",
+      color: "#F24E1E",
+    },
+    {
+      name: "Git",
+      category: "tools",
+      icon: "git",
+      color: "#F05032",
+    },
+    {
+      name: "Docker",
+      category: "devops",
+      icon: "docker",
+      color: "#2496ED",
+    },
+  ],
+
+  projectCategories: ["All", "Mobile Apps", "Web Apps", "Backend", "AI Integration"],
+
+  projects: [
+    {
+      id: "queen-car",
+      title: "Queen Car (Taxi & Ride Hailing)",
+      description: "Passenger & Driver apps live on Google Play Store featuring real-time GPS tracking, ride bids, and secure payments.",
+      image: "/assets/projects/taxi-app-hd.png",
+      tags: ["Flutter", "Google Play", "Live GPS", "Node.js"],
+      category: "Mobile Apps",
+      link: "https://play.google.com/store/apps/details?id=com.queencar.users",
+      driverLink: "https://play.google.com/store/apps/details?id=app.queencar.driver",
+    },
+    {
+      id: "taxiboeken",
+      title: "TaxiBoeken (iOS Ride Booking)",
+      description: "European on-demand taxi booking platform published on the Apple App Store with automated driver dispatch and tracking.",
+      image: "/assets/projects/super-app-hd.png",
+      tags: ["Flutter", "iOS", "App Store", "REST APIs"],
+      category: "Mobile Apps",
+      link: "https://apps.apple.com/us/app/taxiboeken/id6511237112",
+    },
+    {
+      id: "qatch-app",
+      title: "Qatch & Qatch Partner Platform",
+      description: "Multi-platform cab booking and driver dispatch network published on both Google Play Store and Apple App Store.",
+      image: "/assets/projects/healthcare-app-hd.png",
+      tags: ["Flutter", "Firebase", "App Store", "Maps"],
+      category: "Mobile Apps",
+      link: "https://play.google.com/store/apps/details?id=com.qatch",
+      driverLink: "https://apps.apple.com/us/app/qatch-partner/id1356099404",
+      androidDriverLink: "https://play.google.com/store/apps/details?id=com.qatchcab.driver",
+    },
+    {
+      id: "llynkup",
+      title: "LLynkUp (Social Community App)",
+      description: "Modern social and community networking platform published on Google Play with real-time media feeds and chat.",
+      image: "/assets/projects/social-app-hd.png",
+      tags: ["Flutter", "WebRTC", "Socket.IO", "Google Play"],
+      category: "Mobile Apps",
+      link: "https://play.google.com/store/apps/details?id=com.llynkup.app",
+    },
+  ],
+
+  experience: [
+    {
+      company: "Elluminati Inc.",
+      role: "Senior Android & Flutter Developer",
+      period: "May 2021 – Present",
+      logo: "/assets/logos/elluminati-hd.png",
+      logoLetter: "M",
+      logoColor: "#22c55e",
+      description:
+        "Architecting taxi solutions, e-super service apps with real-time GPS tracking, ride bidding systems, and on-demand payment gateways. Managing complete lifecycle from specification to Play Store and App Store deployment.",
+    },
+    {
+      company: "Empire Tech",
+      role: "Android Developer",
+      period: "Jun 2018 – Apr 2021",
+      logo: "/assets/logos/empire-tech-hd.png",
+      logoLetter: "EMP",
+      logoColor: "#38bdf8",
+      description:
+        "Developed healthcare, music, restaurant booking, social media, and on-demand delivery apps. Hands-on expertise in Android (Kotlin/Java), Flutter, API integration, and deployment.",
+    },
+  ],
+
+  testimonials: [
+    {
+      id: "andrew",
+      quote: "Shabbirhushen is an exceptional developer with strong technical skills and great communication. Delivered our ride-hailing app on time with top quality.",
+      name: "Andrew",
+      role: "Startup Founder",
+      avatar: "/assets/testimonials/andrew-hd.png",
+    },
+    {
+      id: "stephanie",
+      quote: "Very professional and reliable. He quickly grasped our mobile requirements and delivered clean, scalable Flutter code.",
+      name: "Stephanie",
+      role: "Product Manager",
+      avatar: "/assets/testimonials/stephanie-hd.png",
+    },
+    {
+      id: "international-client",
+      quote: "One of the best mobile app engineers I have worked with. Successfully deployed our apps to both Google Play and Apple App Store.",
+      name: "International Client",
+      role: "Business Owner",
+      avatar: "/assets/testimonials/international-hd.png",
+    },
+  ],
+
+  navLinks: [
+    { name: "Home", href: "#home" },
+    { name: "About", href: "#about" },
+    { name: "Skills", href: "#skills" },
+    { name: "Projects", href: "#projects" },
+    { name: "Experience", href: "#experience" },
+    { name: "Contact", href: "#contact" },
+  ],
+};
