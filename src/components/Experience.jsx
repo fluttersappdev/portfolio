@@ -14,6 +14,8 @@ export default function Experience() {
           <a
             href={contact.resumeUrl}
             download="Shabbir_Tatariya_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="section-header-link"
             id="view-resume-btn"
           >

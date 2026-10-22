@@ -44,6 +44,8 @@ export default function Hero() {
               <a
                 href={contact.resumeUrl}
                 download="Shabbir_Tatariya_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn-secondary"
                 id="hero-resume-btn"
               >
